@@ -1,0 +1,30 @@
+# Inicializacao da raiz
+000 09 105 0B 107
+001 0A 000 21 108
+#Inicializacao da aproximacao (k)
+002 0A 000 0C 103
+003 0A 000 21 106
+
+# Iteracao {
+004 01 108 0C 106
+005 0A 000 05 106
+006 0C 103 0A 000
+007 21 106 01 102
+008 06 104 21 102
+009 01 102 0F 004
+# Iteracao }
+
+# Carregar a velocidade em AC e sair
+00A 01 106 0D 400
+
+# Variaveis
+102 000000000A # Contador 
+103 0000000002 # Constante 2
+104 0000000001 # Constante 1
+105 0000000028 # Entrada
+106 0000000000 # Aprox da raiz (k)
+107 000000000A # Constante 10
+108 0000000000 # 10*Entrada 
+
+ 
+
